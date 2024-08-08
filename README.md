@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Texto Alternativo](https://i.imgur.com/4tBdzqU.png)
 
-## Getting Started
+## 🔭 Visão Geral
 
-First, run the development server:
+O **Password Manager** é uma aplicação web desenvolvida para ajudar os usuários a gerenciar suas senhas de maneira segura e eficiente. Utilizando as mais recentes tecnologias, como Next.js, Prisma, PostgreSQL, TypeScript e NextAuth, esta aplicação oferece uma interface intuitiva e funcionalidades avançadas para armazenamento e organização de senhas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Principais Recursos:
+
+- Cadastro e Login Seguro: Registre-se e faça login de maneira segura utilizando autenticação baseada em NextAuth.
+- Configuração de Senha Mestre: Estabeleça uma senha mestre única para acessar todas as suas senhas armazenadas, garantindo uma camada extra de segurança.
+- Armazenamento de Senhas: Adicione, edite e exclua senhas com campos para Nome, Email, URL e Categoria.
+- Categorias Personalizadas: Organize suas senhas em diferentes categorias para facilitar a busca e o gerenciamento.
+- Busca e Filtro: Utilize a busca integrada e os filtros por categoria para encontrar rapidamente a senha desejada.
+- Visualização Segura: Visualize suas senhas de forma segura, com a opção de copiar a senha para a área de transferência com um clique.
+- Logout Automático: Mantenha sua conta segura com o recurso de logout automático após 5 minutos de inatividade.
+- Interface Responsiva: Navegue pela aplicação em diferentes dispositivos, graças ao design responsivo construído com TailwindCSS.
+
+### 🔧 Instalação
+
+1. Clone o repositório:
+
+```
+https://github.com/ViniciusOliver-stack/manager-password.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd password-manager
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Configure o arquivo .env com suas variáveis de ambiente.
+4. Execute a aplicação:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Acesse a aplicação em http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Construído com
 
-## Deploy on Vercel
+* Next.js: Framework React para desenvolvimento de aplicações web server-side rendering.
+* Prisma: ORM moderno e intuitivo para interagir com o banco de dados.
+* PostgreSQL: Banco de dados relacional robusto e escalável.
+* TypeScript: Superset do JavaScript que adiciona tipos estáticos, proporcionando uma maior segurança no código.
+* NextAuth: Solução completa para autenticação em Next.js.
+* TailwindCSS: Framework de CSS utilitário para criar interfaces responsivas e customizáveis.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License]. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações sobre os termos de licenciamento.
